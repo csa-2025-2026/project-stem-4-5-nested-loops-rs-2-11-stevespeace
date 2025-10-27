@@ -4,7 +4,7 @@ public class Main
 {
   public static void main(String[] args)
   {
-    // Make sure to test your methods here
+    printNums(); 
   }
 
   public static void printNTimes(String word, int N)
@@ -14,7 +14,13 @@ public class Main
 
   public static void printNums()
   {
-    // code solution here
+    for( int i = 1; i <= 10; i++)
+    {
+      for(int j = 1; j <= i; j++)
+      {
+        System.out.println(i);
+      }
+    }
   }
 
   public static void uprightNumberTriangle(int N)
